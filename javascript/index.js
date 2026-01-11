@@ -18,7 +18,6 @@ let frankfurtTime = moment().tz("Europe/Berlin");
 frankfurtDateElement.innerHTML = frankfurtTime.format ("MMMM Do YYYY");
 frankfurtTimeElement.innerHTML = frankfurtTime.format( "HH:mm:ss");
 
-
 //Hong Kong
 
 let hongKongElement = document.querySelector("#hong-kong");

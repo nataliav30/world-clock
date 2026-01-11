@@ -17,6 +17,17 @@ let frankfurtTime = moment().tz("Europe/Berlin");
 
 frankfurtDateElement.innerHTML = frankfurtTime.format ("MMMM Do YYYY");
 frankfurtTimeElement.innerHTML = frankfurtTime.format( "HH:mm:ss");
+
+
+//Hong Kong
+
+let hongKongElement = document.querySelector("#hong-kong");
+let hongKongDateElement = hongKongElement.querySelector(".date");
+let hongKongTimeElement = hongKongElement.querySelector(".time");
+let hongKongTime = moment().tz("Asia/Hong_Kong");
+
+hongKongDateElement.innerHTML = hongKongTime.format ("MMMM Do YYYY");
+hongKongTimeElement.innerHTML = hongKongTime.format( "HH:mm:ss");
 }
 
 function updateCity(event){
